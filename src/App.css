@@ -1,17 +1,49 @@
-.App {
-  text-align: center;
-}
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(173, 167, 167);
+  background-size: cover;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  /* justify-content: center; */
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
+.board{
+  height: 80vh;
+  width: 50%;
+  box-shadow: 0 2rem 4rem rgb(116, 113, 113);
+  background-color: antiquewhite;
+} 
 
+.grid {
+  height:80vh; 
+  width: 100%
+}
+
+.grid-row{
+  height: 10vh;
+  width: 100%; 
+  color: blue; 
+  display: flex;
+}
+
+.btn {
+  height: 100%;
+  width: 12.5%;
+  background-color: orange;
+  border: 1px solid transparent;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .2s;
+  border: 3px solid white;
+
+}
+.btn:hover {
+  color: white;
+  background-color: rgb(240, 199, 122);
+}
+.btn:active {
+  transform: scale(.95);
+}
