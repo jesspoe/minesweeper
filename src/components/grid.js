@@ -14,7 +14,6 @@ const grid = (props) => {
         <Cell onButtonPress={props.onButtonPress} />
         <Cell onButtonPress={props.onButtonPress} />
         <Cell onButtonPress={props.onButtonPress} />
-
       </GridRow>
 
       <GridRow>
